@@ -42,10 +42,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build
+CMAKE_BINARY_DIR = /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -123,14 +123,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build/CMakeFiles /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build/robo-worker/CMakeFiles/progress.marks
-	cd /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build/CMakeFiles 0
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build/CMakeFiles /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build/robo-worker/CMakeFiles/progress.marks
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/clean
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/clean
 .PHONY : clean
 
 # The main clean target
@@ -139,18 +139,718 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/preinstall
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/preinstall
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+robo-worker/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_cpp: robo-worker/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+.PHONY : actionlib_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+.PHONY : actionlib_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_lisp: robo-worker/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+.PHONY : actionlib_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+.PHONY : actionlib_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/actionlib_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/actionlib_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/actionlib_generate_messages_py.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_py: robo-worker/CMakeFiles/actionlib_generate_messages_py.dir/rule
+.PHONY : actionlib_generate_messages_py
+
+# fast build rule for target.
+actionlib_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/actionlib_generate_messages_py.dir/build.make robo-worker/CMakeFiles/actionlib_generate_messages_py.dir/build
+.PHONY : actionlib_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_cpp: robo-worker/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+.PHONY : actionlib_msgs_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+.PHONY : actionlib_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_lisp: robo-worker/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+.PHONY : actionlib_msgs_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+.PHONY : actionlib_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_py: robo-worker/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+.PHONY : actionlib_msgs_generate_messages_py
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make robo-worker/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+.PHONY : actionlib_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/bond_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/bond_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/bond_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_cpp: robo-worker/CMakeFiles/bond_generate_messages_cpp.dir/rule
+.PHONY : bond_generate_messages_cpp
+
+# fast build rule for target.
+bond_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/bond_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/bond_generate_messages_cpp.dir/build
+.PHONY : bond_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/bond_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/bond_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/bond_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_lisp: robo-worker/CMakeFiles/bond_generate_messages_lisp.dir/rule
+.PHONY : bond_generate_messages_lisp
+
+# fast build rule for target.
+bond_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/bond_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/bond_generate_messages_lisp.dir/build
+.PHONY : bond_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/bond_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/bond_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/bond_generate_messages_py.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_py: robo-worker/CMakeFiles/bond_generate_messages_py.dir/rule
+.PHONY : bond_generate_messages_py
+
+# fast build rule for target.
+bond_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/bond_generate_messages_py.dir/build.make robo-worker/CMakeFiles/bond_generate_messages_py.dir/build
+.PHONY : bond_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_cpp: robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
+.PHONY : diagnostic_msgs_generate_messages_cpp
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
+.PHONY : diagnostic_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_lisp: robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+.PHONY : diagnostic_msgs_generate_messages_lisp
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
+.PHONY : diagnostic_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_py: robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+.PHONY : diagnostic_msgs_generate_messages_py
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make robo-worker/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
+.PHONY : diagnostic_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+.PHONY : robo-worker/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_gencfg: robo-worker/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+.PHONY : dynamic_reconfigure_gencfg
+
+# fast build rule for target.
+dynamic_reconfigure_gencfg/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make robo-worker/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+.PHONY : dynamic_reconfigure_gencfg/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_cpp: robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_cpp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_lisp: robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_lisp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_py: robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_py
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make robo-worker/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: robo-worker/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: robo-worker/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: robo-worker/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make robo-worker/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/libuvc_camera_gencfg.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/libuvc_camera_gencfg.dir/rule
+.PHONY : robo-worker/CMakeFiles/libuvc_camera_gencfg.dir/rule
+
+# Convenience name for target.
+libuvc_camera_gencfg: robo-worker/CMakeFiles/libuvc_camera_gencfg.dir/rule
+.PHONY : libuvc_camera_gencfg
+
+# fast build rule for target.
+libuvc_camera_gencfg/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/libuvc_camera_gencfg.dir/build.make robo-worker/CMakeFiles/libuvc_camera_gencfg.dir/build
+.PHONY : libuvc_camera_gencfg/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+mavros_msgs_generate_messages_cpp: robo-worker/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule
+.PHONY : mavros_msgs_generate_messages_cpp
+
+# fast build rule for target.
+mavros_msgs_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build
+.PHONY : mavros_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+mavros_msgs_generate_messages_lisp: robo-worker/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/rule
+.PHONY : mavros_msgs_generate_messages_lisp
+
+# fast build rule for target.
+mavros_msgs_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build
+.PHONY : mavros_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/mavros_msgs_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/mavros_msgs_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/mavros_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+mavros_msgs_generate_messages_py: robo-worker/CMakeFiles/mavros_msgs_generate_messages_py.dir/rule
+.PHONY : mavros_msgs_generate_messages_py
+
+# fast build rule for target.
+mavros_msgs_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/mavros_msgs_generate_messages_py.dir/build.make robo-worker/CMakeFiles/mavros_msgs_generate_messages_py.dir/build
+.PHONY : mavros_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+nav_msgs_generate_messages_cpp: robo-worker/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+.PHONY : nav_msgs_generate_messages_cpp
+
+# fast build rule for target.
+nav_msgs_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+.PHONY : nav_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+nav_msgs_generate_messages_lisp: robo-worker/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+.PHONY : nav_msgs_generate_messages_lisp
+
+# fast build rule for target.
+nav_msgs_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+.PHONY : nav_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+nav_msgs_generate_messages_py: robo-worker/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+.PHONY : nav_msgs_generate_messages_py
+
+# fast build rule for target.
+nav_msgs_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make robo-worker/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+.PHONY : nav_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_cpp: robo-worker/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+.PHONY : nodelet_generate_messages_cpp
+
+# fast build rule for target.
+nodelet_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+.PHONY : nodelet_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_lisp: robo-worker/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+.PHONY : nodelet_generate_messages_lisp
+
+# fast build rule for target.
+nodelet_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+.PHONY : nodelet_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/nodelet_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/nodelet_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/nodelet_generate_messages_py.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_py: robo-worker/CMakeFiles/nodelet_generate_messages_py.dir/rule
+.PHONY : nodelet_generate_messages_py
+
+# fast build rule for target.
+nodelet_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/nodelet_generate_messages_py.dir/build.make robo-worker/CMakeFiles/nodelet_generate_messages_py.dir/build
+.PHONY : nodelet_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/people_msgs_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/people_msgs_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/people_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+people_msgs_generate_messages_cpp: robo-worker/CMakeFiles/people_msgs_generate_messages_cpp.dir/rule
+.PHONY : people_msgs_generate_messages_cpp
+
+# fast build rule for target.
+people_msgs_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/people_msgs_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/people_msgs_generate_messages_cpp.dir/build
+.PHONY : people_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/people_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/people_msgs_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/people_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+people_msgs_generate_messages_lisp: robo-worker/CMakeFiles/people_msgs_generate_messages_lisp.dir/rule
+.PHONY : people_msgs_generate_messages_lisp
+
+# fast build rule for target.
+people_msgs_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/people_msgs_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/people_msgs_generate_messages_lisp.dir/build
+.PHONY : people_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/people_msgs_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/people_msgs_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/people_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+people_msgs_generate_messages_py: robo-worker/CMakeFiles/people_msgs_generate_messages_py.dir/rule
+.PHONY : people_msgs_generate_messages_py
+
+# fast build rule for target.
+people_msgs_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/people_msgs_generate_messages_py.dir/build.make robo-worker/CMakeFiles/people_msgs_generate_messages_py.dir/build
+.PHONY : people_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: robo-worker/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_lisp: robo-worker/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : roscpp_generate_messages_lisp
+
+# fast build rule for target.
+roscpp_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+.PHONY : roscpp_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/roscpp_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: robo-worker/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : roscpp_generate_messages_py
+
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/roscpp_generate_messages_py.dir/build.make robo-worker/CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_py: robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make robo-worker/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_cpp: robo-worker/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_lisp: robo-worker/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_py: robo-worker/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make robo-worker/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/sound_play_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/sound_play_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/sound_play_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+sound_play_generate_messages_cpp: robo-worker/CMakeFiles/sound_play_generate_messages_cpp.dir/rule
+.PHONY : sound_play_generate_messages_cpp
+
+# fast build rule for target.
+sound_play_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/sound_play_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/sound_play_generate_messages_cpp.dir/build
+.PHONY : sound_play_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/sound_play_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/sound_play_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/sound_play_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+sound_play_generate_messages_lisp: robo-worker/CMakeFiles/sound_play_generate_messages_lisp.dir/rule
+.PHONY : sound_play_generate_messages_lisp
+
+# fast build rule for target.
+sound_play_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/sound_play_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/sound_play_generate_messages_lisp.dir/build
+.PHONY : sound_play_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/sound_play_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/sound_play_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/sound_play_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sound_play_generate_messages_py: robo-worker/CMakeFiles/sound_play_generate_messages_py.dir/rule
+.PHONY : sound_play_generate_messages_py
+
+# fast build rule for target.
+sound_play_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/sound_play_generate_messages_py.dir/build.make robo-worker/CMakeFiles/sound_play_generate_messages_py.dir/build
+.PHONY : sound_play_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: robo-worker/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: robo-worker/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: robo-worker/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/std_msgs_generate_messages_py.dir/build.make robo-worker/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+.PHONY : robo-worker/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+tf2_msgs_generate_messages_cpp: robo-worker/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+.PHONY : tf2_msgs_generate_messages_cpp
+
+# fast build rule for target.
+tf2_msgs_generate_messages_cpp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make robo-worker/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+.PHONY : tf2_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+.PHONY : robo-worker/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+tf2_msgs_generate_messages_lisp: robo-worker/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+.PHONY : tf2_msgs_generate_messages_lisp
+
+# fast build rule for target.
+tf2_msgs_generate_messages_lisp/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make robo-worker/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+.PHONY : tf2_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+robo-worker/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 robo-worker/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+.PHONY : robo-worker/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+tf2_msgs_generate_messages_py: robo-worker/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+.PHONY : tf2_msgs_generate_messages_py
+
+# fast build rule for target.
+tf2_msgs_generate_messages_py/fast:
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(MAKE) -f robo-worker/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make robo-worker/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+.PHONY : tf2_msgs_generate_messages_py/fast
 
 # Help Target
 help:
@@ -158,13 +858,63 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... actionlib_msgs_generate_messages_lisp"
+	@echo "... roscpp_generate_messages_lisp"
 	@echo "... install/strip"
+	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... actionlib_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... tf2_msgs_generate_messages_cpp"
+	@echo "... nav_msgs_generate_messages_lisp"
+	@echo "... mavros_msgs_generate_messages_lisp"
+	@echo "... mavros_msgs_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... people_msgs_generate_messages_lisp"
+	@echo "... nodelet_generate_messages_cpp"
+	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... install"
+	@echo "... nav_msgs_generate_messages_py"
+	@echo "... libuvc_camera_gencfg"
+	@echo "... tf2_msgs_generate_messages_py"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
+	@echo "... diagnostic_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... roscpp_generate_messages_cpp"
+	@echo "... nodelet_generate_messages_lisp"
+	@echo "... sound_play_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... list_install_components"
+	@echo "... dynamic_reconfigure_generate_messages_py"
+	@echo "... mavros_msgs_generate_messages_cpp"
+	@echo "... bond_generate_messages_lisp"
+	@echo "... bond_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... actionlib_generate_messages_py"
+	@echo "... sound_play_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... nodelet_generate_messages_py"
+	@echo "... people_msgs_generate_messages_py"
+	@echo "... actionlib_generate_messages_lisp"
+	@echo "... tf2_msgs_generate_messages_lisp"
+	@echo "... dynamic_reconfigure_generate_messages_cpp"
+	@echo "... diagnostic_msgs_generate_messages_py"
+	@echo "... sound_play_generate_messages_cpp"
+	@echo "... bond_generate_messages_py"
+	@echo "... people_msgs_generate_messages_cpp"
+	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... test"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... diagnostic_msgs_generate_messages_lisp"
+	@echo "... nav_msgs_generate_messages_cpp"
+	@echo "... roscpp_generate_messages_py"
+	@echo "... std_msgs_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... install/local"
+	@echo "... actionlib_msgs_generate_messages_py"
 .PHONY : help
 
 
@@ -176,6 +926,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,2 +1,2 @@
-beginner_tutorials:robo-status:robo-worker
--DCATKIN_DEVEL_PREFIX=/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/install -G Unix Makefiles
+robo-worker
+-DCATKIN_DEVEL_PREFIX=/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/install -G Unix Makefiles

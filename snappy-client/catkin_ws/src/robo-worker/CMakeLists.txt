@@ -5,8 +5,18 @@ project(robo-worker)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  libuvc_camera
+  mavros
+  mavros_extras
+  mavros_msgs
+  nav_msgs
+  people_msgs
+  people_tracking_filter
+  realtime_tools
   roscpp
   rospy
+  sensor_msgs
+  sound_play
   std_msgs
 )
 
@@ -67,7 +77,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
-#   std_msgs
+#   mavros_msgs#   nav_msgs#   people_msgs#   sensor_msgs#   std_msgs
 # )
 
 ################################################
@@ -102,7 +112,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES robo-worker
-#  CATKIN_DEPENDS roscpp rospy std_msgs
+#  CATKIN_DEPENDS libuvc_camera mavros mavros_extras mavros_msgs nav_msgs people_msgs people_tracking_filter realtime_tools roscpp rospy sensor_msgs sound_play std_msgs
 #  DEPENDS system_lib
 )
 

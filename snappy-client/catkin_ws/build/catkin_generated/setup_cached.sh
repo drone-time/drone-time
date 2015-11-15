@@ -5,14 +5,12 @@
 # it emulates the modifications of the setup script without recurring computations
 
 # new environment variables
+export LUA_CPATH=";;/opt/ros/indigo/lib/lua/5.1/?.so"
+export LUA_PATH=";;/opt/ros/indigo/share/lua/5.1/?.lua"
+export OROCOS_TARGET="gnulinux"
+export RTT_COMPONENT_PATH="/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/devel/lib/orocos:/opt/ros/indigo/lib/orocos"
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/devel:$CMAKE_PREFIX_PATH"
-export CPATH="/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/devel/include:$CPATH"
-export LD_LIBRARY_PATH="/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/devel/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH"
-export PATH="/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/devel/bin:$PATH"
-export PKG_CONFIG_PATH="/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/devel/lib/x86_64-linux-gnu/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build"
-export PYTHONPATH="/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/src:$ROS_PACKAGE_PATH"
+export LD_LIBRARY_PATH="/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/devel/lib/x86_64-linux-gnu:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/devel/lib:/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/devel/lib:/opt/ros/indigo/lib"
+export PKG_CONFIG_PATH="/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/devel/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/devel/lib/pkgconfig:/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
+export PWD="/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build"

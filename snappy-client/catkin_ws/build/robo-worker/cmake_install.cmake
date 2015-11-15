@@ -1,8 +1,8 @@
-# Install script for directory: /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/src/robo-worker
+# Install script for directory: /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/src/robo-worker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build/robo-worker/catkin_generated/installspace/robo-worker.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build/robo-worker/catkin_generated/installspace/robo-worker.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robo-worker/cmake" TYPE FILE FILES
-    "/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build/robo-worker/catkin_generated/installspace/robo-workerConfig.cmake"
-    "/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/build/robo-worker/catkin_generated/installspace/robo-workerConfig-version.cmake"
+    "/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build/robo-worker/catkin_generated/installspace/robo-workerConfig.cmake"
+    "/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/build/robo-worker/catkin_generated/installspace/robo-workerConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robo-worker" TYPE FILE FILES "/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/src/robo-worker/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robo-worker" TYPE FILE FILES "/home/kevin/src/RobotAsAService/snappy-client/catkin_ws/src/robo-worker/package.xml")
 endif()
 

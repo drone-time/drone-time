@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/kevin/src/RobotAsAService/snappy_client/catkin_ws/install/setup.sh
+    local-name: /home/kevin/src/RobotAsAService/snappy-client/catkin_ws/install/setup.sh

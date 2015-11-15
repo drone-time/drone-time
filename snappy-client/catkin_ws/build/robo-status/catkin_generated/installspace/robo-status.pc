@@ -1,8 +1,0 @@
-prefix=/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/install
-
-Name: robo-status
-Description: Description of robo-status
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/install/lib 
-Requires: 
