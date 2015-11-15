@@ -1,11 +1,21 @@
 # drone-client
 
-Snappy Ubuntu client for easy drone installation
+**Here for installing Robot Operating System (Indigo)**
+
+http://wiki.ros.org/indigo/Installation/Ubuntu
+
+packages added from http://www.ros.org/browse/list.php
+
+
+
+**Snappy Ubuntu client for easy drone installation**
 
 https://erlerobotics.com/blog/product/erle-brain-v2/
 https://erlerobotics.com/blog/product/erle-hexacopter/
 
-Process
+
+
+**Process**
 
 ___Building in catkin workspace with Robot Operating System + packages
 
@@ -20,8 +30,11 @@ ___robo-status.cpp - anounces status to the network
 
 ___https://github.com/erlerobot/ros2snap
 
+
+
 //TODO
 //snappy app for eth client? thin client? full client?
+
 
 //TODO
 Link template drone worker routine to solidity contract vars
