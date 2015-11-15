@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "robo-worker")
+set(robo-worker_MAINTAINER "kevin <kevin@todo.todo>")
+set(robo-worker_DEPRECATED "")
+set(robo-worker_VERSION "0.0.0")
+set(robo-worker_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(robo-worker_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(robo-worker_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/devel
+
+Name: robo-worker
+Description: Description of robo-worker
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kevin/src/RobotAsAService/snappy_client/catkin_ws/devel/lib 
+Requires: 
