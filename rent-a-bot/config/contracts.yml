@@ -1,0 +1,9 @@
+# config/contracts.yml
+development:
+  SimpleStorage:
+    gas_limit: 500000
+    gas_price: 10000000000000
+    args:
+      - 100
+
+staging:
