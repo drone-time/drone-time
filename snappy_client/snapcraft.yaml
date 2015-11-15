@@ -1,0 +1,22 @@
+name: webcam-webui
+version: 0.1
+# The vendor for the snap (replace 'Vendor <email@example.com>')
+vendor: Kevin Carter <kevinmichaelcarter@outlook.com>
+summary: serve a webcam image every 10 seconds
+description: A longer description for the snap
+icon: icon.png
+
+services:
+  webcam-webui:
+    start: bin/webcam-webui
+
+parts:
+  golang-static-http:
+    plugin: go
+    source: git://github.com/mikix/golang-static-http
+    stage-packages:
+     - fswebcam
+  glue:
+    plugin: copy
+    files:
+      webcam-webui: bin/webcam-webui
