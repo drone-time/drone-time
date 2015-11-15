@@ -1,22 +1,15 @@
-name: webcam-webui
+name: RobotAsAService
 version: 0.1
 # The vendor for the snap (replace 'Vendor <email@example.com>')
 vendor: Kevin Carter <kevinmichaelcarter@outlook.com>
-summary: serve a webcam image every 10 seconds
-description: A longer description for the snap
+summary: Decentralised peer-to-peer robot timesharing
+description: During a robot's downtime can be rented for work in its neighbourhod. Robot client publishes state and location data to a distributed network. It also controls behaviour and accepts instruction sets. User client transmits instruction sets and payment through the ethereum network. A Dapp locates the nearest robot and negotiates a rate for the work. Upon agreement the robot carries out the instruction set.
+
 icon: icon.png
 
 services:
-  webcam-webui:
-    start: bin/webcam-webui
+
+stage:
 
 parts:
-  golang-static-http:
-    plugin: go
-    source: git://github.com/mikix/golang-static-http
-    stage-packages:
-     - fswebcam
-  glue:
-    plugin: copy
-    files:
-      webcam-webui: bin/webcam-webui
+ 
