@@ -2,30 +2,20 @@
 
 Embark framework to provide user with status, control and transact pannels
 
-*Embark*
+Embark
 
-*___Solidity contracts*
+___Solidity contracts
 
-___self.address
+______self.address
 
-___register.self
+______register.self
 
-___network.scout
+______network.scout
 
-*___Client frontend*
+___Client frontend
 
-___HTML
-()navigation planning + ()services
-()drone availability + ()costing
-()transaction
-()report
+______HTML - navigation planning + services, drone availability + costing, transaction, report
 
-___JS
-()navigation planning (X,Y,t)
-()services
-()drone availability (T)
-()costing (ETH)
-()transaction (address)
-()report
+______JS - navigation planning (X,Y,t), services, drone availability (T), costing (ETH), transaction (address), report
 
-___CSS
+______CSS
