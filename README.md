@@ -6,7 +6,7 @@ Robots have dead time (powered but not being used) during which they can be rent
 
 With ETH users can purchase timeshare in a network of drones and utilise a range of services: Area surveillance, Asset tracking, Environmental monitoring, Loud speaker :)
 
-**rent-a-bot client** ethereum node that shows status of the network and allows purchasing drone time (inc. specialised labour).
+**rent-a-bot client** ethereum node that shows status of the robot network and availability of resources. allows specification of robot duties and purchasing of drone time (inc. specialised labour).
 
 **snappy-client** snappy ubuntu client to report drone status to the network and recieve work orders from users/market scouts
 
