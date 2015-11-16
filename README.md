@@ -1,6 +1,6 @@
 # drone-time
 
-Note: very much work in progress. I have never put together a software application before so am learning things as I go along. I am very open to useful suggestions, criticisms, alterations and contributions. I lecture in Physics and Engineering so love IoT. This is a learning exercise for myself to know more about building new technologies and in particular building with Ethereum smart-contracts. As such I would really appreciate the chance to work and learn together. This is intended for people who have similar goals (or of course, those who wish to teach!).
+Note: very much work in progress. I have never put together a software application before and have barely written code so am learning things as I go along. I am very open to useful suggestions, criticisms, alterations and contributions. This is a learning exercise for myself to know more about building new technologies and for this in particular building with Ethereum smart-contracts. As such I would really appreciate the chance to work and learn together. This is intended for people who have similar goals (or of course, those who wish to teach!).
 
 **Decentralised peer-to-peer robot timesharing**
 
