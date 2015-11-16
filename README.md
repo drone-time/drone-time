@@ -8,7 +8,7 @@ With ETH users can purchase timeshare in a network of drones and utilise a range
 
 **rent-a-bot client** ethereum node that shows status of the robot network and availability of resources. allows specification of robot duties and purchasing of drone time (inc. specialised labour).
 
-**snappy-client** snappy ubuntu client to report drone status to the network and recieve work orders from users/market scouts
+**snappy-client** snappy ubuntu client to report drone status to the network and recieve And carry out work orders from users/market scouts
 
 **Bonus task**
 Revenue pathways in the decentralised drone network create a fund for drone-time response to emergency situations
