@@ -1,6 +1,10 @@
 # drone-time
 
-Decentralised peer-to-peer robot timesharing
+Note: very much work in progress. I have never put together a software application before so am learning things as I go along. I am very open to useful suggestions, criticisms, alterations and contributions. I ecture in Physics and Engineering and have an interest in the Internet and Things so love IoT. This is a learning exercise for myself to know more about building new technologies and as such I would really appreciate the chance to work and learn together.
+
+Note: The interaction with the Etehreum blockchain is important for my learning goals so I will continue with this tool in place.
+
+*Decentralised peer-to-peer robot timesharing*
 
 Robots have dead time during which they can be rented out to the neighbourhood.
 
