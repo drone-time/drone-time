@@ -4,7 +4,7 @@ Note: very much work in progress. I have never put together a software applicati
 
 NoteToo: The interaction with the Etehreum blockchain is important for my learning goals so I will continue with this tool in place.
 
-*Decentralised peer-to-peer robot timesharing*
+**Decentralised peer-to-peer robot timesharing**
 
 Robots have dead time during which they can be rented out to the neighbourhood.
 
